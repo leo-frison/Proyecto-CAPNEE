@@ -47,7 +47,7 @@ export default class CreateUser extends Component {
             <div className="row">
                 <div className="col-md-4">
                     <div className="card card-body">
-                        <h3>Create New User</h3>
+                        <h3>Registre Nuevo Docente</h3>
                         <form onSubmit={this.onSubmit}>
                             <div className="form-group">
                                 <input
@@ -58,7 +58,7 @@ export default class CreateUser extends Component {
                                 />
                             </div>
                             <button type="submit" className="btn btn-primary">
-                                Save
+                                Guardar
                     </button>
                         </form>
                     </div>

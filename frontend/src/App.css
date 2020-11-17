@@ -1,12 +1,32 @@
-body {
-    background: #141E30;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.App {
+  width: 100%;
+  margin: 0 auto;
+  background-image: url(http://desarrollolibre.net/public/images/example/css/71/clouds.png), url(http://desarrollolibre.net/public/images/example/css/71/clouds.png), url(http://desarrollolibre.net/public/images/example/css/71/clouds.png);
+  animation: animated 4s linear infinite;
+  -webkit-animation: animated 4s linear infinite;
+  width: 700px;
+  max-width: 90%;
+  height: 690px;  
+}
+
+@keyframes animated {
+  0%   {background-position: 100px 120px,-400px 10px, 0 0;}
+50%  {background-position: 100px 100px, -400px 10px, 50% 0;}
+100% {background-position: 100px 120px, 700px 10px, 100% 0;}
+}
+
+@-webkit-keyframes animated {
+
+  0%   {background-position: 100px 120px,-400px 10px, 0 0;}
+50%  {background-position: 100px 100px, -400px 10px, 50% 0;}
+100% {background-position: 100px 120px, 700px 10px, 100% 0;}
+
 
 }
-.material-icons {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    vertical-align: middle;
+.Content {
+  background-image: url(http://desarrollolibre.net/public/images/example/css/71/clouds.png), url(http://desarrollolibre.net/public/images/example/css/71/clouds.png), url(http://desarrollolibre.net/public/images/example/css/71/clouds.png);  
+  animation: animated 4s linear infinite;
+-webkit-animation: animated 4s linear infinite;
+  margin: 0 auto;  
 }
+

@@ -6,6 +6,7 @@ import Navigation from './components/Navigation'
 import NotesList from './components/NotesList'
 import CreateNote from './components/CreateNote'
 import CreateUser from './components/CreateUser'
+import QuizMain from './components/QuizMain'
 
 import './App.css';
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/edit/:id" component={CreateNote} />
         <Route path="/create" component={CreateNote} />
         <Route path="/user" component={CreateUser} />
+        <Route path="/primero" component={QuizMain} />
       </div>
     </Router>
   );
